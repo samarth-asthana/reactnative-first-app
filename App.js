@@ -3,7 +3,7 @@ import React ,{useState}from 'react';
 import { StyleSheet, Text, View,Button,TextButton } from 'react-native';
 
 export default function App() {
-  const[outputText,setOutputText]=useState('Hii Samarth');
+  const[outputText,setOutputText]=useState('Good Bye Samarth');
 
   return (
     <View style={styles.container}>
